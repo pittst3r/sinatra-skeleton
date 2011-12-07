@@ -1,5 +1,7 @@
 # Sinatra Skeleton
 
+Run with <code>bundle exec ruby site.rb</code>
+
 ## The Setup
 
 ### config.ru
