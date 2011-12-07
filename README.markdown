@@ -21,7 +21,7 @@ Comes with:
 ### site.rb
 
 * <code>require</code>s the above gems.
-* Has <code>/stylesheets/*.css</code> route to find sass stylesheets living at <code>./views/stylesheets/sass/</code> and parse them.
+* Has <code>/stylesheets/*.css</code> route to find sass stylesheets living in the sass directory and parse them.
 * Has <code>/</code> route, utilizes the markdown helper.
 * Has example route for <code>/:page</code>
   * <code>/:page</code> is the name of the markdown file in </code>./views/content/</code>.
