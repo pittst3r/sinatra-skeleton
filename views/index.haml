@@ -1,0 +1,25 @@
+!!! 5
+
+%html
+  %head
+    %title Title
+    %link(rel="stylesheet" media="screen" type="text/css" href="/stylesheets/application.css")
+    /[if lt IE 9]
+      %script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
+    %script(type="text/javascript" src="/google_analytics.js")
+
+%body
+  %header
+    %section
+      %h1
+        %a(href="/" title="Home") My Website
+    %section#top_nav
+      %nav
+        %ul
+          %li
+            %a(href="/somepage") Some Page
+  #content
+      ~ @content
+  
+  %footer
+    &copy; #{Date.today.year} My Entity
